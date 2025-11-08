@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  
+  
+  /* Modal Styles */
+  .doctor-modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctor-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .close-modal-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .close-modal-button:hover {
+    background-color: #c82333;
+  }
+  
+  .modal-body {
+    margin-bottom: 20px;
+  }
+  
+  .modal-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .modal-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .create-doctor-button, .update-doctor-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-doctor-button:hover, .update-doctor-button:hover {
+    background-color: #0764c8;
+    box-shadow: 3px 3px 2px 2px gray;
+  }
+  
+  .error {
+    color: red;
+    font-size:small;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .form-outer-div{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    background-color: bisque;
+  }
+
+  .form-outer-div form{
+    padding: 100px 100px 0px 100px;
+    height: fit-content;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+
+  form section{
+    display: flex;
+    gap: 10px;
+  }
+
+  .form-labels,.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .signin{
+    color: #0056b3;
+    background-color:white;
+  }
+
+  .signin:hover{
+    color: white;
+    background-color: #0056b3;
+    opacity: 95%;
+    box-shadow: 3px 3px 2px 2px gray;
+  }
